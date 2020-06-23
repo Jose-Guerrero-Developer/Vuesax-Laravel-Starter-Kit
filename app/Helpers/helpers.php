@@ -29,6 +29,13 @@ class Helper
 
         // All options available in the template
         $allOptions = [
+            'defaultLanguage' => array(
+                'en' => 'en',
+                'es' => 'es',
+                'fr' => 'fr',
+                'de' => 'de',
+                'pt' => 'pt'
+            ),
             'mainLayoutType' => array('vertical', 'horizontal'),
             'theme' => array('light' => 'light', 'dark' => 'dark-layout', 'semi-dark' => 'semi-dark-layout'),
             'sidebarCollapsed' => array(true, false),
