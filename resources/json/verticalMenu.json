@@ -10,25 +10,21 @@
         {
             "url": "",
             "name": "configurations",
-            "slug": "configurations",
             "icon": "feather icon-settings",
             "submenu": [
                 {
-                    "url": "/users",
+                    "url": "users",
                     "name": "users",
-                    "slug": "users",
                     "icon": "feather icon-chevron-right"
                 },
                 {
-                    "url": "/roles",
+                    "url": "roles",
                     "name": "roles",
-                    "slug": "roles",
                     "icon": "feather icon-chevron-right"
                 },
                 {
-                    "url": "/permissions",
+                    "url": "permissions",
                     "name": "permissions",
-                    "slug": "permissions",
                     "icon": "feather icon-chevron-right"
                 }
             ]

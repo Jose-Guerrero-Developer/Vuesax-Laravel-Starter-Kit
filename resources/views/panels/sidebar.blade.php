@@ -9,7 +9,10 @@ $configData = Helper::applClasses();
         <li class="nav-item mr-auto">
             <a class="navbar-brand" href="{{ url('/') }}">
                 <div class="brand-logo"></div>
-                <h2 class="brand-text mb-0">{{ Config('app.name') }}</h2>
+                <h2 class="brand-text mb-0">
+                    <span style="color: #000; font-size: .5em;">TRANSPORTE</span> <br />
+                    <span style="color: #000; font-size: .7em; display: block;">Escobar Cáceres</span>
+                </h2>
             </a>
         </li>
       <li class="nav-item nav-toggle">
@@ -61,7 +64,14 @@ $configData = Helper::applClasses();
       @endforeach
       @endif
       {{-- Foreach menu item ends --}}
+        <li class="nav-item">
+            <a href="{{ route('logout') }}" onclick="event.preventDefault(); document.getElementById('logout-form').submit();">
+                <i class="feather icon-power"></i>
+                <span class="menu-title" data-i18n="">{{ __('locale.logout') }}</span>
+            </a>
+        </li>
     </ul>
   </div>
 </div>
+
 <!-- END: Main Menu-->

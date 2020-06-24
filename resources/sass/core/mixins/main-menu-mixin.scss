@@ -170,8 +170,7 @@
             }
             &.active {
                 > a {
-                    background: linear-gradient(118deg,rgba($primary,1),rgba($primary,.7));
-                    box-shadow: 0 0 10px 1px rgba($primary,.7);
+                    background: $primary;
                     color:$white;
                     font-weight: 400;
                     border-radius: 4px;
@@ -237,8 +236,7 @@
                 }
 
                 .active {
-                    background: linear-gradient(118deg,rgba($primary,1),rgba($primary,.7));
-                    box-shadow: 0 0 10px 1px rgba($primary,.7);
+                    background: $primary;
                     border-radius: 4px;
                     > a {
                         color: $white;

@@ -13,7 +13,8 @@ return [
     |
     */
 
-    'name' => env('APP_NAME', 'Laravel'),
+    'name'     => env('APP_NAME', 'Transporte Escobar Cáceres'),
+    'sub_name' => env('APP_SUB_NAME', 'TEC'),
 
     /*
     |--------------------------------------------------------------------------

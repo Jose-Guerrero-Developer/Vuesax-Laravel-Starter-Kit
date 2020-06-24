@@ -9,27 +9,27 @@
 
 // Color system
 
-$white: #fff;
-$body-bg: #f8f8f8;
+$white:    #fff;
+$body-bg:  #f8f8f8;
 $gray-100: #babfc7; // $gray-lightest
 $gray-200: #ededed; // $gray-lighter
 $gray-300: #dae1e7; // $gray-light
 $gray-400: #636363;
 $gray-500: #adb5bd;
-$gray-600: #b8c2cc; // $gray
+$gray-600: #f9f9f9; // $gray
 $gray-700: #4e5154;
 $gray-800: #1e1e1e; // $gray-dark
 $gray-900: #2a2e30;
-$black: #22292f;
+$black:    #22292f;
 
-$blue: #00cfe8; //$info
-$red: #ea5455; //$danger
+$blue:   #00cfe8; //$info
+$red:    #ea5455; //$danger
 $orange: #ff9f43; //$warning
-$green: #28c76f; //$success
-$cyan: #7367f0; //$primary
+$green:  #28c76f; //$success
+$cyan:   #f00; //$primary
 
 $primary: $cyan;
-$info: $blue;
+$info:    $blue;
 $warning: $orange;
 
 // Spacing
