@@ -1,6 +1,6 @@
 @extends('layouts/contentLayoutMaster')
 
-@section('title', 'Dashboard Analytics')
+@section('title', __('locale.dashboard'))
 
 @section('vendor-style')
 <!-- vendor css files -->
@@ -13,7 +13,7 @@
 @endsection
 
 @section('content')
-{{-- Dashboard Analytics Start --}}
+{{-- Dashboard --}}
 <section id="dashboard-analytics">
   <div class="row">
     <div class="col-lg-6 col-md-12 col-sm-12">

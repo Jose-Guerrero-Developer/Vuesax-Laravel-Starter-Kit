@@ -1,12 +1,16 @@
 <?php
 
 return [
-  "Dashboard" => "Instrumententafel",
-  "Starter kit" => "Starter-Kit",
-  "2 Columns" => "2 Spalten",
-  "Fixed Navbar" => "Navbar behoben",
-  "Floating Navbar" => "Schwimmende Navbar",
-  "Fixed Layout" => "Festes Layout",
-  "Raise Support" => "Unterstützung erhöhen",
-  "Documentation" => "Dokumentation"
+    "dashboard"         => "Vorstand",
+    "available"         => "Verfügbar unter",
+    "raise_support"     => "Anhebung der Unterstützung",
+    "documentation"     => "Dokumentation",
+    "edit_profile"      => "Profil bearbeiten",
+    "inbox"             => "Posteingang",
+    "task"              => "Aufgabe",
+    "logout"            => "Sitzung schließen",
+    "configurations"    => "Konfigurationen",
+    "users"             => "Benutzer",
+    "roles"             => "Rollen",
+    "permissions"       => "Erlaubt"
 ];

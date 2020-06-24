@@ -9,7 +9,7 @@ return [
         'navbarColor'            => '', // options[String]: bg-primary, bg-info, bg-warning, bg-success, bg-danger, bg-dark (default: '' for #fff)
         'horizontalMenuType'     => 'floating', // options[String]: floating(default) / static /sticky (Warning:this option only applies to the Horizontal theme.)
         'verticalMenuNavbarType' => 'floating', // options[String]: floating(default) / static / sticky / hidden (Warning:this option only applies to the vertical theme)
-        'footerType'             => 'static', // options[String]: static(default) / sticky / hidden
+        'footerType'             => 'hidden', // options[String]: static(default) / sticky / hidden
         'bodyClass'              => '', // add custom class
         'pageHeader'             => true, // options[Boolean]: true(default), false (Page Header for Breadcrumbs)
         'contentLayout'          => 'default', // options[String]: default, content-left-sidebar, content-right-sidebar, content-detached-left-sidebar, content-detached-right-sidebar (warning:use this option if your whole project with sidenav Otherwise override this option as page level )

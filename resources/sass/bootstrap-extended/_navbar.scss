@@ -994,7 +994,7 @@ body {
 
 @include media-breakpoint-down(xs) {
   .header-navbar.floating-nav {
-    width: calc(100vw - (100vw - 100%) - 3.5rem) !important;
+    width: calc(100vw - (100vw - 100%) - 2.5rem) !important;
     margin-left: 1.2rem;
     margin-right: 1.2rem;
   }

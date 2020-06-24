@@ -4,18 +4,14 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-class DashboardController extends Controller
+class UserController extends Controller
 {
-    // Dashboard - Analytics
-    public function dashboardAnalytics(){
+    function index () {
         $pageConfigs = [
             'pageHeader' => false
         ];
-
-        return view('/pages/dashboard', [
+        return view('/pages/users', [
             'pageConfigs' => $pageConfigs
         ]);
     }
-
 }
-

@@ -1,12 +1,16 @@
 <?php
 
 return [
-  "Dashboard" => "Tableau de bord",
-  "Starter kit" => "Kit de démarrage",
-  "2 Columns" => "2 colonnes",
-  "Fixed Navbar" => "Barre de navigation fixe",
-  "Floating Navbar" => "Navbar flottant",
-  "Fixed Layout" => "Disposition fixe",
-  "Raise Support" => "Augmenter le soutien",
-  "Documentation" => "Documentation"
+    "dashboard"         => "Conseil d'administration",
+    "available"         => "Disponible à l'adresse suivante",
+    "raise_support"     => "Lever le soutien",
+    "documentation"     => "Documentation",
+    "edit_profile"      => "Modifier le profil",
+    "inbox"             => "Boîte de réception",
+    "task"              => "Tâche",
+    "logout"            => "Fermer la session",
+    "configurations"    => "Configurations",
+    "users"             => "Utilisateurs",
+    "roles"             => "Rôles",
+    "permissions"       => "Permis"
 ];

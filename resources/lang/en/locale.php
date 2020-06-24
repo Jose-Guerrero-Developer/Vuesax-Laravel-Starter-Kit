@@ -1,12 +1,16 @@
 <?php
 
 return [
-    "Dashboard" => "Dashboard",
-    "Starter kit" => "Starter kit",
-    "2 Columns" => "2 Columns",
-    "Fixed Navbar" => "Fixed Navbar",
-    "Floating Navbar" => "Floating Navbar",
-    "Fixed Layout" => "Fixed Layout",
-    "Raise Support" => "Raise Support",
-    "Documentation" => "Documentation"
+    "dashboard"         => "Dashboard",
+    "available"         => "Available",
+    "raise_support"     => "Raise Support",
+    "documentation"     => "Documentation",
+    "edit_profile"      => "Edit profile",
+    "inbox"             => "Inbox",
+    "task"              => "Task",
+    "logout"            => "Logout",
+    "configurations"    => "Configurations",
+    "users"             => "Users",
+    "roles"             => "Roles",
+    "permissions"       => "Permissions"
 ];

@@ -47,7 +47,6 @@ class LoginController extends Controller
           'bodyClass' => "bg-full-screen-image",
           'blankPage' => true
       ];
-
       return view('/auth/login', [
           'pageConfigs' => $pageConfigs
       ]);
@@ -62,9 +61,7 @@ class LoginController extends Controller
     public function logout(Request $request)
     {
         $this->guard()->logout();
-
         $request->session()->invalidate();
-
         return $this->loggedOut($request) ?: redirect('/login');
     }
 }
