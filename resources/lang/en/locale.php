@@ -12,5 +12,11 @@ return [
     "configurations"    => "Configurations",
     "users"             => "Users",
     "roles"             => "Roles",
-    "permissions"       => "Permissions"
+    "permissions"       => "Permissions",
+    "companies"         => "Companies",
+    "employees"         => "Employees",
+    "clients"           => "Clients",
+    "accounting"        => "Accounting",
+    "shopping"          => "Shopping",
+    "countries"         => "Countries"
 ];
