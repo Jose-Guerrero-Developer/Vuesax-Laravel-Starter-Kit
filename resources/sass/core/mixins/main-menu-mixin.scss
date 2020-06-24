@@ -156,7 +156,7 @@
             &.open, &.sidebar-group-active {
                 > a {
                     color: $main-menu-top-open-color;
-                    background: $main-menu-top-open-head-bg;
+                    // background: $main-menu-top-open-head-bg;
                     transition: transform 0.25s ease 0s, -webkit-transform 0.25s ease 0s;
                     border-radius: 6px;
                     margin-bottom: 7px;
